@@ -1,0 +1,95 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Barra de navegación */
+nav {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section#contacto a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section#contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
